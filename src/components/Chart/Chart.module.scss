@@ -1,0 +1,62 @@
+.Chart {
+  position: relative;
+
+
+  border: 3px solid #FF7F00;
+  border-radius: 20px;
+
+
+  font-family: Lato;
+  background-color: white;
+}
+
+.mainProgress {
+  position: absolute;
+  top: calc(50% - 0.5em);
+  left: calc(50% - 0.5em - 2em);
+
+  font-size: 1.2em;
+  line-height: 1;
+  font-weight: 700;
+
+  & span {
+    font-size: 0.6em;
+  }
+}
+
+.subProgress {
+  position: absolute;
+  top: 43%;
+  left: 13.5em;
+
+  font-size: 0.7em;
+  line-height: 1;
+  font-weight: 700;
+
+}
+
+.info {
+  position: absolute;
+  left: 5.7em;
+  top: 5.7em;
+}
+
+.infoTitle {
+  margin-top: 0.1em;
+
+  font-size: 0.7em;
+  font-family: OpenSans;
+
+}
+
+.infoRelation {
+  margin-top: 0.1em;
+
+  font-size: 0.9em;
+  font-weight: 700;
+
+
+  & span {
+    color: #a0a0a0;
+  }
+}
